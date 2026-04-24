@@ -104,9 +104,21 @@ export default function Footer() {
           <p className="text-[11px] text-white/25 font-sans">
             © {new Date().getFullYear()} Asociación de Hoteles de Puerto Vallarta y Bahía de Banderas A.C.
           </p>
-          <p className="text-[11px] text-white/25 font-sans">
-            Todos los derechos reservados
-          </p>
+          <div className="flex items-center gap-3 text-[11px] text-white/25 font-sans text-center sm:text-right">
+            <span className="hidden sm:inline">Todos los derechos reservados</span>
+            <span className="hidden sm:inline">•</span>
+            <span>
+              Desarrollado por{" "}
+              <a 
+                href="https://kairosautomation.ai" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-aqua-500/80 hover:text-aqua-400 transition-colors duration-300 font-medium"
+              >
+                KairosAutomation.ai
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </footer>

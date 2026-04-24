@@ -3,6 +3,7 @@ import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
+import VoiceflowChat from "@/components/VoiceflowChat";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default function RootLayout({
         <Nav />
         <main>{children}</main>
         <Footer />
+        <VoiceflowChat />
       </body>
     </html>
   );
