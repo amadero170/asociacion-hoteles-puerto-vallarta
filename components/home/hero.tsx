@@ -31,7 +31,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 flex-1 flex items-center">
         <div className="max-w-7xl mx-auto px-6 w-full pt-28 pb-16">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl max-md:hidden">
             {/* Eyebrow */}
             <motion.div
               initial={{ opacity: 0, y: 16 }}
